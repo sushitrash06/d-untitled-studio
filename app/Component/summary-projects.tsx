@@ -106,6 +106,9 @@ const SummaryProjects: React.FC = () => {
           </div>
         ))}
       </Slider>
+      <button className="bg-[#d7be8d] mt-10 text-gray-800 px-6 py-3 rounded-md hover:bg-[#c8ad7d] transition">
+        See More Projects
+      </button>
     </div>
   );
 };
