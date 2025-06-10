@@ -20,7 +20,7 @@ export default function HeroSection() {
       {/* Konten */}
       <div className="relative z-10 px-4 py-6 bg-[#c89f75]/80 backdrop-blur-sm rounded-sm max-w-md">
         <p
-          className={`${robotoMono.className} text-white text-lg md:text-2xl font-mono mb-4 leading-relaxed`}
+          className={`${robotoMono.className} text-white text-lg md:text-xl font-mono mb-4 leading-relaxed`}
         >
           Let&apos;s Build thoughtful spaces together - <br />
           start today and see the difference

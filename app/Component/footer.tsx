@@ -1,6 +1,6 @@
 // app/components/Footer.tsx (atau mana saja)
 import Image from "next/image";
-import { FiPhone } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { robotoMono } from "../Font";
 
@@ -31,12 +31,12 @@ export default function Footer() {
         {/* Right side */}
         <div className="space-y-4 text-base">
           <div className="flex items-center space-x-2">
-           <FiPhone />
-            <span className={`${robotoMono.className}`}>+62 896-0128-6991</span>
+           <FiInstagram />
+           <span className={`${robotoMono.className}`}>d.untitledstudio1</span>
           </div>
           <div className="flex items-center space-x-2">
             <MdOutlineMailOutline />
-            <span className={`${robotoMono.className}`}>UntitleDstudioOne@gmail.com</span>
+            <span className={`${robotoMono.className}`}>d.untitledstudio1@gmail.com</span>
           </div>
         </div>
       </div>
